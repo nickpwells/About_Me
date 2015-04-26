@@ -1,0 +1,108 @@
+body {
+  color: #222222;
+  font-size: 1em;
+  font-family: "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.footer,
+.masthead-intro,
+.masthead-heading {
+  text-align: center;
+}
+
+.masthead {
+  padding: 1%;
+  background-image: url('https://download.unsplash.com/photo-1421091242698-34f6ad7fc088');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 0;
+  border-top: solid 1em #efc691;
+}
+
+  .masthead-intro {
+    font-family: "Gentium Book Basic", Georgia,  serif;
+    font-size: 2em;
+    margin-bottom: 0.1em;
+  }
+
+.masthead-heading {
+   color: #efc691;
+   font-size: 6em;
+   font-family: "Open Sans", "Helvetica Neue", sans-serif;
+   font-weight: bold;
+   letter-spacing: -.02em;
+   margin-top: -0.2em;
+   text-transform: uppercase;
+   -webkit-text-stroke-width: .02em;
+   -webkit-text-stroke-color: black;
+ }
+
+.masthead-intro,
+.masthead-heading {
+  text-shadow: .1em .1em .1em black;
+}
+
+.intro > p,
+.hometown > p,
+.footer > p {
+  font-weight: 300;
+  letter-spacing: .05em;
+}
+
+.more > h2 {
+  font-family: "Gentium Book Basic", Georgia, serif;
+  font-size: 1.2em;
+  font-weight: bold;
+  margin: 2em 0 1em 0;
+}
+
+.intro,
+.hometown,
+.more {
+  max-width: 38em;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2em;
+  border-bottom: solid #efc691;
+}
+
+.footer {
+  margin-top: -1em;
+  padding: 1em;
+  background-color: #9cdddd;
+  border: solid #efc691;
+}
+
+.social {
+  padding: 0;
+  list-style: none;
+}
+
+.social > li {
+  display: inline-block;
+}
+.footer > p {
+  color: white;
+}
+
+@media only screen and (max-width: 500px){
+  .masthead-heading {
+    font-size: 3em;
+  }
+}
+
+@media only screen and (max-width: 500px){
+  .masthead {
+    padding: 3em 0;
+  }
+  .masthead-heading {
+    font-size: 3em;
+  }
+}
+
+@media only screen and (max-width: 500px){
+  .footer {
+    padding: 1em 2em;
+    font-size: .8em;
+  }
+}
